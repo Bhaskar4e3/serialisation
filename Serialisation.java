@@ -10,7 +10,7 @@ public class Serialisation {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         
        EmployeS e=new EmployeS();
-
+ System.out.println("this is serialisation");
 //  FileOutputStream fout=new FileOutputStream("D:\\Serialization\\fileser.ser");
 //  ObjectOutputStream out=new ObjectOutputStream(fout);
 //         out.writeObject(e);
